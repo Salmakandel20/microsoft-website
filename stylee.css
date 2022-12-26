@@ -1,0 +1,488 @@
+
+*{
+    box-sizing: border-box !important;
+  text-decoration: none;
+}
+#page{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*start header*/
+.head{
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+.nav{
+    height: 60px;
+
+}
+.nav img{
+    float: left;
+    width: 110px;
+    margin:10px;
+
+}
+.icons{width:350px;
+float: right;}
+.nav ul,.icons ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+    overflow: hidden;
+    margin:auto;
+}
+
+.nav ul  li{
+    float: left;
+padding: 10px 10px;
+margin: 1px 5px 0px 0px;
+}
+
+.nav ul li a{ 
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a span {
+    font-size: 13px;
+    
+}
+.nav ul li a span:hover {
+     border-bottom:2px solid black;
+}
+
+
+.icons ul{
+    float: right;
+}
+.icons ul li{
+    float: left;
+    margin-left: 30px;
+}
+/*start slider*/
+.slider{width:100%;
+    height: 590px;
+ 
+}
+.text{
+    background-color: #0067B8;
+    width: 100%;
+ height: 40px;
+text-align: center;}
+.text a{
+    text-decoration: none;
+    padding: 12px 36px;
+    color: white;
+    display:block;
+    font-size: 13px;
+}
+ .text:hover{
+    outline: 1px dashed black;
+}
+
+
+  .text a span:hover{
+border-bottom:2px solid white;
+}
+.texts{width:100%;
+    height: 550px;
+    /* margin-top: 50px; */
+}
+.texts  a img{
+    float:left;
+height: 100%;
+    width: 57%;
+}
+.texts1{    width: 43%;
+    height: 100%;
+    background-color:rgb(241 241 241);
+    float:left;
+   text-align: left;
+}
+.t1{
+    margin-top: 160px;
+    height: 300px;
+}
+.A{
+    text-align:center;
+    width:230px;
+    background-color:#fef000;
+height: 30px;
+padding: 6px;
+
+}
+ .A a{text-decoration: none;
+    color: black;
+
+}
+
+.texts1 .A a span{
+margin-bottom: 5px;
+font-size: 15px;
+font-weight: bold;
+
+}
+.t1 h1{
+    margin: 8px;
+    color:rgb(44, 36, 36)
+}
+.texts1 p{
+width: 570px;
+}
+.B{
+background-color: black;
+float: left;
+width:120px;
+height: 35px;
+text-align: center;
+margin-right: 60px;
+}
+ .B a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 5px;
+  
+}
+
+.B span:hover{
+    border-bottom: 2px solid white;
+}
+#c{text-decoration: none;
+    float: left;
+margin:10px 0px 40px 0px; }
+#C h3{
+    font-size: 15px;
+    margin:0px
+}
+
+
+#C h3:hover{
+    border-bottom: 2px solid black;
+
+
+}
+/*end slider*/
+
+/*end header*/
+
+/*start image*/
+.image{
+    height: 180px;
+    margin: 0px 80px 0px 80px;
+}
+.image div{
+    width: 150px;
+    height: 110px;
+margin: auto;
+display: inline-block;
+margin-left: 40px;
+margin-top: 60px;
+}
+.image div img{
+    width: 45px;
+    margin: auto;
+    height:46px ;
+    padding: 3px;
+   display: block;
+
+}
+
+.image div a{
+    text-decoration: none;
+    color: black;
+    width: 130px;
+    margin: auto;
+    height:50px ;
+    display: block;
+overflow: hidden;
+text-align: center;
+}
+.image div a span:hover{
+  border-bottom: 2px solid black;}
+/*end image*/
+
+.cart{
+    width: 100%;
+    height:450px;
+    margin-top:40px ;
+}
+.cart div{
+    float: left;
+    width: 23.5%;
+    height: 450px;
+    margin:0px;
+    padding: 0px;
+    margin-right: 27px;
+    
+}
+.cart div:last-of-type{
+    margin-right: 0px;
+
+}
+.cart div img{
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    margin-right:  3px ;
+    margin-bottom: 30px;
+
+}
+.cart div a{
+    text-decoration: none;
+    color: black;
+}
+.cart div a h3,.cart div a p{
+    margin:10px 0px;
+}
+.cart div a span{display: inline-block;
+    margin-right: 3px;
+    color:#0067b8;
+}
+.cart div a span:hover{
+    border-bottom: 2px solid #0067b8;
+}
+/*end cart*/
+/*start games*/
+.game{
+width: inherit;
+height: 500px;
+background-image: url("../images/gg.png");
+background-size: 99.6% 100%;
+background-repeat: no-repeat;
+}
+.gtext{
+    text-align: left;
+padding-top: 180px;
+margin-left: 100px;
+}
+.gtext h1{
+    margin:0px;
+    margin-bottom: 10px;
+    color:white;
+}
+.gtext p{
+    width: 467px;
+    height: 40px;
+    color:white;
+margin: 0px;
+margin-bottom: 30px;
+}
+
+.gtext button{
+    width: 130px;
+    height: 40px;
+    color:black;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.gtext button:hover{
+    border-bottom: 2px solid black;
+
+}
+.gtext>a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+
+}
+.gtext button a{
+    text-decoration: none;
+    color: black;
+}
+.gtext button a:hover{
+    border-bottom: 2px solid black;
+}
+.gtext a span:hover{
+    border-bottom: 2px solid white;
+}
+/*end games*/
+
+
+/*start business*/
+
+.furces{
+    width: 100%;
+    height: 450px;
+margin-bottom: 40px;
+}
+.furces div{
+    float: left;
+    width: 23.5%;
+    height: 400px;
+    margin: auto;
+    margin-right: 27px;
+}
+.furces div:last-of-type{
+    margin-right: 0px;
+}
+
+.furces div img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+.furces div h3,.furces div p{
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.furces div a{
+    text-decoration: none;
+    color: black;
+}
+.furces div a span:hover{
+    border-bottom: 2px solid black;
+} 
+.furces div >a{
+    margin-right: 40px;
+}
+/*end busines*/
+/* start smal*/
+
+.smal{
+    width: 100%;
+    height: 150px;
+    background: #e6e6e6    ;
+    text-align: center;
+    padding-top:26px;
+    margin-bottom: 30px;
+}
+.smal h1,.smal p{
+    margin:0px;
+    margin-bottom: 5px;
+}
+.smal a{
+    color: black;
+    text-decoration: none;
+
+}
+.smal a span:hover{
+    border-bottom: 2px solid black;
+}
+/*end smal*/
+/*start img2*/
+.img2{
+    width: 100%;
+    height: 450px;
+    background-image: url("../images/RWIljj.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+.img2 div{
+    width: 50%;
+    height: 400px;
+    float: right;
+    text-align: left;
+    padding-top:100px;
+    padding-left: 120px;
+    padding-right: 20px;
+    padding-bottom: 100px;}
+
+
+.img2 div h1,.img div p{
+margin:0px;
+margin-bottom: 5px;
+}
+.img2 div h1{
+    width: 440px;
+}
+.img2 div p{
+    width: 550px;
+    height: 70px;
+}
+.img2 div button{
+    width: 150px;
+height: 40px;
+background-color:black;
+ 
+}
+.img2 div button a{   color: white;
+    font-weight: 600px;}
+.img2 div button a:hover{
+    border-bottom: 2px solid white;
+}
+/*end img2*/
+/*start follow*/
+
+.follow{
+    margin: 40px 0px 20px;
+    width: 100%;
+    height: 100px;
+
+
+}
+.follow span{
+    float: left;
+    margin-right: 30px;
+}
+
+.follow ul{list-style: none;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+
+}
+.follow ul li{
+    float: left;
+    margin-right: 10px;
+}
+/*end foolow*/
+
+/*contnt*/
+.content{
+width: 100%;
+height: 400px;
+background:#f2f2f2;
+}    
+.content ul{
+    list-style: none;
+    float: left;
+    padding: 0px;
+
+    margin:30px 80px 10px 50px;
+}
+
+
+.content ul li{
+    margin:10px 0px;
+
+}
+.content ul li a{
+    color:black;
+}
+.content ul li a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+.end{
+    display: block;
+    width: 100%;
+    height: 60px;
+    background:#f2f2f2;
+}
+
+.end a{
+    font-weight: 100px;
+}
+.end a span{color:black;}
+.end div:last-of-type{
+    width: 800px;
+    float:left;
+}
+.end div:last-of-type ul{
+    list-style: none;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.end div:last-of-type ul li{
+    float: left;
+    margin: 0px 3px;
+    padding: 3px;
+}
+/*contnt*/
